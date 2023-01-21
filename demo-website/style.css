@@ -1,3 +1,61 @@
 h1 {
-  color: red;
+  color: #a85fed;
+  text-align: center;
+  font-size: 35px;
+}
+nav ul {
+  background-color: #7fc7fa;
+}
+ul a {
+  text-decoration: none;
+  list-style-type: none;
+  text-align: center;
+  color: black;
+  padding: 14px 16px;
+  margin: 0;
+  padding: 10px;
+  font-size: 20px;
+}
+ul a:hover {
+  background-color: #2c14f5;
+  color: #f4eee5;
+}
+nav li {
+  display: inline;
+  font-size: 15px;
+}
+
+img {
+  height: 400px;
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+p {
+  font-size: 20px;
+  text-align: center;
+}
+
+h2 {
+  color: #69e088;
+}
+article {
+  font-size: 15px;
+}
+.pic-2 {
+  border-radius: 50%;
+  float: right;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+.column {
+  float: left;
+  width: 45%;
+  padding: 15px;
 }
