@@ -41,20 +41,21 @@ p {
 
 h2 {
   color: #69e088;
+  text-align: center;
 }
 article {
-  font-size: 15px;
+  font-size: 18px;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 .pic-2 {
   border-radius: 50%;
   float: right;
+  margin-top: 90px;
 }
 
 .footer {
   clear: both;
   position: relative;
-  margin-top: -200px;
 }
 .column {
   float: left;
