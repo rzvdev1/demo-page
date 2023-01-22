@@ -1,3 +1,6 @@
+* {
+  background-color: #edbae8;
+}
 h1 {
   color: #a85fed;
   text-align: center;
@@ -40,7 +43,7 @@ p {
 }
 
 h2 {
-  color: #69e088;
+  color: #aaeeda;
   text-align: center;
 }
 article {
@@ -54,8 +57,16 @@ article {
 }
 
 .footer {
+  font-size: 15px;
   clear: both;
   position: relative;
+}
+footer a {
+  color: #11b4d9;
+  text-decoration: none;
+}
+footer li {
+  color: #cb22d6;
 }
 .column {
   float: left;
