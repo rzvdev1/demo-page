@@ -26,5 +26,5 @@ function getResponse(param) {
     document.write(again);
     getResponse();
   }
-  return "You are right" + param;
+  return confirm("Lets find out if " + answer + " Is right");
 }
