@@ -28,3 +28,23 @@ function getResponse(param) {
   }
   return confirm("Lets find out if " + answer + " Is right");
 }
+
+function getGuess() {
+  var condition = true;
+  // var input = prompt("How many main rings are in Saturn?");
+  while (condition) {
+    var input = prompt("How many main rings are in Saturn?");
+    input = Number(input);
+    if (input === 7) {
+      alert(
+        "There are 7 main rings, they are D, C, B, A, F, G and E. The D ring is very faint and closest to Saturn."
+      );
+      document.write(
+        '<img src="saturn.jpg" alt="saturn planet" width="300" height="300" />'
+      );
+      condition = false;
+    } else {
+      alert("Try again");
+    }
+  }
+}
